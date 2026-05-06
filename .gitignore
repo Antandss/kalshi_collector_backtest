@@ -1,0 +1,7 @@
+/target
+/venv
+/__pycache__
+keys/*
+.env
+tod.txt
+*.pem
