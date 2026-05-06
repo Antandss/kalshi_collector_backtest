@@ -9,7 +9,7 @@
 ## setup 
 - bash ´´python -m venv venv´´
 - bash ´´pip install -r requirements.txt´´
-- from /trading ´´cargo build´´ 
+- from project root ´´cargo build´´ 
 
 ### kalshi api key 
 
@@ -57,11 +57,16 @@ streamlit run dashboard.py
 ```
 
 ### backtest.rs 
-from root: cargo run --bin backtest 
+from root: 
+```bash
+cargo run --bin backtest 
+```
 
 ### collector.rs
-from root: cargo run --bin collector
-
+from root: 
+```bash
+cargo run --bin collector
+```
 
 ## demo 
 trading.db comes populated with data. Launch dashboard to inspect, and backtest to tune parameters. 
