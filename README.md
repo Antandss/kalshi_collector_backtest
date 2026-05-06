@@ -32,6 +32,7 @@
 ### tunable parameters (in `StrategyConfig`)
 
 | parameter | default | description |
+|---|---|---|
 | `entry_drop` | 0.20 | drop from baseline to trigger entry |
 | `exit_revert_pct` | 0.05 | how close to baseline counts as reverted |
 | `stop_loss` | 0.10 | additional drop below entry before cutting loss |
