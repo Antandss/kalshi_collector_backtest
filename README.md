@@ -7,9 +7,18 @@
 
 
 ## setup 
-- bash ´´python -m venv venv´´
-- bash ´´pip install -r requirements.txt´´
-- from project root ´´cargo build´´ 
+```bash
+python -m venv venv
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+from project root:
+```bash
+cargo build
+```
 
 ### kalshi api key 
 
@@ -47,6 +56,7 @@ per-market trade log with entry/exit prices and pnl, plus an overall summary of 
 - live bid/ask/mid chart per market with spread band
 - market list with filter by team name or map
 - stats: current mid, spread, baseline probability, and drift from baseline
+- backtest: adjust parameters dynamically, view trades, pnl
 - auto-refreshes every 15 seconds
 
 ## how to run 
